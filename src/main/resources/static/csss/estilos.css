@@ -1,0 +1,75 @@
+*{
+    background: beige;
+}
+nav{
+    width: 300px;
+    padding: 40px;
+    display: inline-block;
+    border: 10px solid aquamarine;
+    text-align: center;
+}
+
+h1{
+    padding: 30px;
+    text-align: center;
+
+}
+/*
+input[type="text"],input[type="password"]{
+    width: 200px;
+    border: 2px solid #00BCD4;
+    display: block;
+     padding : 14px 10px;
+    color: darkblue;
+    border-radius: 30px;
+}
+input[type="text"]:hover,input[type="password"]:hover{
+    width: 300px;
+    border-radius: 50px;
+    border-color: black;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    width: 300px;
+    border-radius: 50px;
+    border-color: black;
+}
+*/
+button{
+    background: none;
+    display:block;
+    color: black;
+    outline:none;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: black;
+    width: 200px;
+}
+button:hover{
+    background: aqua;
+    border-radius: 50px;
+    border-color: black;
+    width: 300px;
+}
+a{
+    width: 200px;
+    border: 2px solid #00BCD4;
+    display: block;
+    padding : 14px 10px;
+    color: darkblue;
+    border-radius: 30px;
+}
+
+a:focus{
+    width: 300px;
+    border-radius: 50px;
+    border-color: black;
+}
+a:hover{
+    width: 300px;
+    border-radius: 50px;
+    border-color: black;
+}/*
+input[type="button"],a:hover{
+    background: aquamarine;
+    cursor:pointer;
+}*/

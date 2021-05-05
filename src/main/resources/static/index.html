@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="csss/estilos.css">
+</head>
+<body>
+    <div id="index">
+        <h1 style="size: 500px">
+            Bienvenidos a la web del supermercado SUPERMARKT
+        </h1>
+        <section style="text-align: center" id="app">
+            <nav class="asd1">
+                <h2 style="size: 200px" >Ver nuestros productos</h2>
+                <a href="index2.html" >Aquí</a>
+            </nav>
+            <nav id="asd2">
+                <h2 style="size: 200px">Registrarse como comprador</h2>
+                 <input class="form-control" type="password" placeholder="Ingrese el ID entregado" v-model="elementos.id">
+                <input class="form-control" type="text"  placeholder="Nombres" v-model="elementos.nombre">
+                <input class="form-control" type="text" placeholder="Apellidos" v-model="elementos.apellidos">
+
+                <h3>
+                    <button v-on:click="agregar()" class="btn btn-outline-success">Registrar usuario</button>
+                </h3>
+            </nav>
+            <nav id="asd3">
+                <h1>Iniciar Sesión</h1>
+                <input id="elid" class="form-control" type="password" placeholder="Ingrese el ID" v-model="elementos.id">
+                <input id="elnom" class="form-control" type="text" placeholder="Ingrese su nombre" v-model="elementos.nombre">
+                <a  href="index3.html" onclick="iniciar()" class="btn btn-outline-success" >Iniciar sesión</a>
+            </nav>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="jss/index3.js" type="text/javascript"></script>
+    <script src="jss/index4.js" type="text/javascript"></script>
+
+</body>
+</html>
